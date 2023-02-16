@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
-main the entry pount of the whole program
-Return 0 if no error and a nonzero if error
+ * main the entry pount of the whole program
+ * Return 0 if no error and a nonzero if error
 */
 
 
