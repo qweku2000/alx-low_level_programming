@@ -1,13 +1,11 @@
-#include <stdio.h>
-/*
-* main the entry pount of the whole program
-*
-* Return 0 if no error and a nonzero if error
-*/
-
-
-int main()
+#include<stdio.h>
+/**
+ * main -is the entry point for the program.
+ *
+ * Return:zero if no error, Non-zero value  if errors
+ */
+int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return 0;
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
