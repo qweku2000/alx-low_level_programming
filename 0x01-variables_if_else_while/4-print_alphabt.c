@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - prints the lower case of the alphabet
+ * main - prints the alphabets in lower case,eclude e & q
  *
- * Return: 0, if succesful
+ * Return: O, if succesful
  */
 int main(void)
 {
@@ -11,7 +11,8 @@ int main(void)
 
 	for (lc = 'a' ; lc <= 'z' ; lc++)
 	{
-		putchar(lc);
+		if (lc != 'e' && lc != 'q')
+			putchar(lc);
 	}
 	putchar('\n');
 	return (0);

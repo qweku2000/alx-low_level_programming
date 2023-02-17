@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - prints the lower case of the alphabet
+ * main - print lowercase followed by uppercase alphabets
  *
  * Return: 0, if succesful
  */
@@ -12,6 +12,10 @@ int main(void)
 	for (lc = 'a' ; lc <= 'z' ; lc++)
 	{
 		putchar(lc);
+	}
+	for (lc = 'a' ; lc <= 'z' ; lc++)
+	{
+		putchar(toupper(lc));
 	}
 	putchar('\n');
 	return (0);
