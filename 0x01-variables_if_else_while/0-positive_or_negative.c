@@ -16,18 +16,18 @@ int main(void)
 	
 /*betty style if else if statement*/
 
- if (n==0)
-{
-  printf("%d is positive\n", n);
-}
- else if (n < 0 )
-{
-  printf("%d is negative", n);
-}
- else
-{
-  printf("%d is positive", n);
-}
+        if (n==0)
+        {
+           printf("%d is positive\n", n);
+        }
+        else if (n < 0 )
+        {
+           printf("%d is negative", n);
+        }
+        else
+        {
+           printf("%d is positive", n);
+        }
  
  return (0);
 }
