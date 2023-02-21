@@ -2,10 +2,10 @@
 
 int main(void)
 {
-  char case;
-  for( case = 'a'; case <= 'z'; case++)
+  char lc;
+  for( lc = 'a'; lc <= 'z'; lc++)
     {
-      putchar(case);
+      putchar(lc);
     }
   printf("\n");
 }   
