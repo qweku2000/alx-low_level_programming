@@ -13,7 +13,7 @@ int main(void)
        
      }
     printf("\n");
-    // printf("This is the %d = ", i);
+   
   }
   printf("\n");
   return (0);   
