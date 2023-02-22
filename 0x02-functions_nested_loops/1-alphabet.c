@@ -2,11 +2,11 @@
 
 void print_alphabet(void)
 {
-	char lc;
+	char c;
 
-	for (lc = 'a'; lc <= 'z'; lc++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(lc);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
