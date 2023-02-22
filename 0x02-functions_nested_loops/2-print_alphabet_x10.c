@@ -14,10 +14,9 @@ void print_alphabet_x10(void)
        putchar(lc);
        
      }
-    printf("\n");
+   putchar('\n');
    
   }
    putchar('\n');
-  
-  return (0);   
+   
 }  
