@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include "main.h"
 
-int main(void)
+void print_alphabet(void)
 {
-  char lc;
-  for( lc = 'a'; lc <= 'z'; lc++)
-    {
-      putchar(lc);
-    }
-  printf("\n");
-  return (0);
-}   
+	char lc;
+
+	for (lc = 'a'; lc <= 'z'; lc++)
+	{
+		_putchar(lc);
+	}
+	_putchar('\n');
+}
