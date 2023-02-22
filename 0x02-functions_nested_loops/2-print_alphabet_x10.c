@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
-int main(void)
+
+void print_alphabet_x10(void)
 {
   int i;
   char lc;
@@ -9,13 +11,13 @@ int main(void)
   {
    for( lc= 'a'; lc<='z'; lc++)
      {
-       _putchar(lc);
+       putchar(lc);
        
      }
     printf("\n");
    
   }
-  _putchar('\n');
+   putchar('\n');
   
   return (0);   
 }  
