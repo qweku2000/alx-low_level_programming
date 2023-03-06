@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
+/**
  * _strchr - Locates the first occurrence of character @c in string @s
  *
  * @s: Pointer to the string to search
@@ -20,10 +20,10 @@ char *_strchr(char *s, char c)
     {
        
         if (s[a] == c)
-	  {
+	{
 	    return ( s + a);
-
-	  }
+	}
+     }
         
 
         return (NULL);
