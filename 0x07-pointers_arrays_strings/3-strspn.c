@@ -1,0 +1,38 @@
+#include "main.h"
+
+/**
+ *_strspn is a  a function that gets the length of a prefix substring
+ *@s : string that contains the @accept substring
+ *@accept : substring to checked
+
+*/
+
+
+
+
+
+unsigned int _strspn(char *s, char *accept)
+{
+
+  unsigned int count =0, bytes;
+  for ( unsigned int a=0; s[a]!='\0'; a++ )
+  {
+    
+    for ( unsigned int b = 0; accept[b] != '\0' ; b++ )
+      {
+	if ( accept[b] == s[a] )
+	  {
+	    bytes ++;
+	    count++;
+
+	  }
+	else if ( bytes = 0)
+ 	  {
+	    return ( bytes );
+
+	  }
+      }
+
+   }
+
+}
