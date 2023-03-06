@@ -13,11 +13,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-    unsigned int count = 0, bytes = 0;
-
-    if (s == NULL || accept == NULL) {
-        return 0;
-    }
+  unsigned int count = 0, bytes = 0;
 
     for (unsigned int a = 0; s[a] != '\0'; a++)
     {
