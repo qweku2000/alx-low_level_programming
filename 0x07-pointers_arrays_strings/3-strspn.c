@@ -23,16 +23,16 @@ unsigned int _strspn(char *s, char *accept)
 	if ( accept[b] == s[a] )
 	  {
 	    bytes ++;
-	    count++;
-
-	  }
-	else if ( count = 0)
- 	  {
-	    return ( bytes );
+	    count = 1;
 
 	  }
       }
+    if (count == 0 )
+      {
+	return (bytes);
 
+      }
    }
+  return (bytes);
 
 }
