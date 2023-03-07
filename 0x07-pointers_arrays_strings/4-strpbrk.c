@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-/**
+/*
  * _strpbrk - Searches a string for any of a set of bytes.
  * @s: string to searched
  * @accept: set of bytes to search for
