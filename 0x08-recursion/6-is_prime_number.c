@@ -14,7 +14,7 @@ int check_prime(int div, int num)
 	else if (div > num / 2)
 		return (1);
 	else
-		return (if_prime(div + 1, num));
+		return (check_prime(div + 1, num));
 }
 
 
@@ -28,5 +28,5 @@ int is_prime_number(int n)
 {
 	if (n == 2)
 		return (1);
-	return (if_prime(2, n));
+	return (check_prime(2, n));
 }
