@@ -1,3 +1,6 @@
+int is_palindrome(char *s);
+int check_strlen(char *s);
+int check_palindrome(int str, int len, char *p);
 int check_prime(int div, int num);
 int is_prime_number(int n);
 int sqrt_get(int g, int c);
