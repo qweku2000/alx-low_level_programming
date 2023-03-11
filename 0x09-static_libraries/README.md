@@ -1,0 +1,1 @@
+Added Readme for static library project
