@@ -11,9 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-        int i = n1*n2;
-	int n1 = atoi(argv[1]);
-	int n2 = atoi(argv[2]);
+	int i, n1, n2;
 
 	if (argc != 3)
 	{
@@ -21,7 +19,9 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
- 
+	n1 = atoi(argv[1]);
+	n2 = atoi(argv[2]);
+	i = n1 * n2;
 
 	printf("%d\n", i);
 
