@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * *_strdup is a function that returns a pointer which contains a copy af a string as a parameter
+ *@str: str parameter that is to be used or copied
+ *@new_str : new string whose location is stored by the returned pointer
+ *@p : a pointer to the new string
+*/
+char *_strdup(char *str)
+{
+  unsigned int i;
+  char *new_str = (char *) malloc(strlen(str));
+  char *p = new_str ;
+  if ( new_str == NULL )
+    {
+      return (NULL);
+    }
+  else
+    {
+      for( i = 0; i < strlen(str)+1; i++)
+	{
+          new_str[i] = str[i] ;
+	  
+	}
+      new_str[i] = '\0';
+    }
+   
+  return (p) ; 
+}
