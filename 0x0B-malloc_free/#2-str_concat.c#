@@ -13,7 +13,8 @@ char *str_concat(char *s1, char *s2)
 {
   char *p;
   p = (char*) malloc(strlen(s1)+strlen(s2)+1) ;
-  unsigned int i ;
+  s
+
   if ( p == NULL )
     {
       return (NULL) ;
@@ -27,7 +28,7 @@ char *str_concat(char *s1, char *s2)
 	      p[i] = s1[i] ;
 
 	    }
-	  else if (i >= strlen(s2))
+	  else if (i >= strlen(s2)
 	    {
 	      p[i] = s2[i - strlen(s1)] ;
 
