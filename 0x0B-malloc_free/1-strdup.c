@@ -10,21 +10,21 @@
 char *_strdup(char *str)
 {
   unsigned int i;
-  char *new_str = (char *) malloc(strlen(str));
+  char *new_str = (char *) malloc(strlen(str)+1);
   char *p = new_str ;
   if ( new_str == NULL )
     {
       return (NULL);
     }
-  else
+  if (str == NULL)
     {
-      for( i = 0; i < strlen(str)+1; i++)
-	{
-          new_str[i] = str[i] ;
-	  
-	}
-      new_str[i] = '\0';
+      return (NULL);
     }
-   
-  return (p) ; 
+
+  for ( i = 0; i < strlen(str) +1; i++)
+    {
+      new_str[i] = str [i];
+    }
+  return (new_str)
+    }
 }
