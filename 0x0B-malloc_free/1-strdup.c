@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include "main.h"
 /**
  * *_strdup is a function that returns a pointer which contains a copy af a string as a parameter
  *@str: str parameter that is to be used or copied
